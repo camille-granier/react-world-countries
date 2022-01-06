@@ -14,7 +14,8 @@ const Countries = () => {
       if (playOnce) {
         axios
         .get('https://restcountries.com/v3.1/all')
-        .then(res => {setData(res.data)
+        .then(res => {setData(res.data);
+                      setPlayOnce(false);
         })};
       const sortedCountry = () => {
         const countryObj = Object.keys(data).map((i) => (data[i]));
