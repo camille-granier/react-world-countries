@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={ <Home/> } />
+        <Route path="/react-world-countries" element={ <Home/> } />
         <Route path="/about" element={ <About/> } />
         <Route path="/notfound" element={ <NotFound/> } />
       </Routes>
