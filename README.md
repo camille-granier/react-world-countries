@@ -6,4 +6,4 @@ I use react hooks and react packages like react-router-dom. I also used Sass.
 
 I used the tutorial made by [From Scratch](https://www.youtube.com/watch?v=f0X1Tl8aHtA)
 
-hosted on github [here](https://camille-granier.github.io/react-world-countries/)
+hosted on firebase [here](https://react-world-countries-77f79.web.app)
